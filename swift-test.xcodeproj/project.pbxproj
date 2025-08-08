@@ -28,6 +28,7 @@
 		C038C4652BA2F2150045BF70 /* swift-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C038C4682BA2F2150045BF70 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C03DC7E42BAC2CFF00D6137F /* linked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linked.swift; sourceTree = "<group>"; };
+		C044BD242E45CCC5002A720F /* 逆向.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "逆向.md"; sourceTree = "<group>"; };
 		C06E176E2BAAC0FD00AE0D6C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		C0787B282DD2E34D00867C2A /* 手势.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "手势.md"; path = "../Daily/手势.md"; sourceTree = "<group>"; };
 		C0787B2B2DD2E9B400867C2A /* 用户.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "用户.md"; path = "../Daily/用户.md"; sourceTree = "<group>"; };
@@ -170,6 +171,7 @@
 			children = (
 				C0E0AD782E30EF0A00E8F8EA /* 计算机原理.md */,
 				C0E0AE042E39BF0100E8F8EA /* 图片.md */,
+				C044BD242E45CCC5002A720F /* 逆向.md */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
