@@ -26,6 +26,16 @@
 		C038C4652BA2F2150045BF70 /* swift-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C038C4682BA2F2150045BF70 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C044BD242E45CCC5002A720F /* 逆向.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "逆向.md"; sourceTree = "<group>"; };
+		C06894B52E5D642800016F6F /* SymbolTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SymbolTable.png; sourceTree = "<group>"; };
+		C06894B62E5D642800016F6F /* __TEXT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = __TEXT.png; sourceTree = "<group>"; };
+		C06894B72E5D642800016F6F /* __DATA_CONST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = __DATA_CONST.png; sourceTree = "<group>"; };
+		C06894B82E5D642800016F6F /* __DATA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = __DATA.png; sourceTree = "<group>"; };
+		C06894B92E5D642800016F6F /* Mach-O.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Mach-O.md"; sourceTree = "<group>"; };
+		C06894BA2E5D642800016F6F /* Load Commands.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Load Commands.md"; sourceTree = "<group>"; };
+		C06894BB2E5D642800016F6F /* __TEXT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = __TEXT.md; sourceTree = "<group>"; };
+		C06894BC2E5D642800016F6F /* __DATA_CONST.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = __DATA_CONST.md; sourceTree = "<group>"; };
+		C06894BD2E5D642800016F6F /* __DATA.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = __DATA.md; sourceTree = "<group>"; };
+		C06894BE2E5D642800016F6F /* Dynamic Loader Info.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Dynamic Loader Info.md"; sourceTree = "<group>"; };
 		C0787B282DD2E34D00867C2A /* 手势.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "手势.md"; path = "../Daily/手势.md"; sourceTree = "<group>"; };
 		C0787B2B2DD2E9B400867C2A /* 用户.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "用户.md"; path = "../Daily/用户.md"; sourceTree = "<group>"; };
 		C0787B2C2DD2EDBC00867C2A /* 二进制重排.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "二进制重排.md"; path = "../Daily/二进制重排.md"; sourceTree = "<group>"; };
@@ -92,12 +102,30 @@
 			isa = PBXGroup;
 			children = (
 				C038C4682BA2F2150045BF70 /* main.swift */,
+				C06894B42E5D641400016F6F /* Mach-O */,
 				C0E0AD772E30EEC300E8F8EA /* Assembly */,
 				C0787B2A2DD2E38500867C2A /* Daily */,
 				C07D4B912DE98D9C000A51B8 /* DailyOC */,
 				C0787B2D2DD4761500867C2A /* DilySwift */,
 			);
 			path = "swift-test";
+			sourceTree = "<group>";
+		};
+		C06894B42E5D641400016F6F /* Mach-O */ = {
+			isa = PBXGroup;
+			children = (
+				C06894B92E5D642800016F6F /* Mach-O.md */,
+				C06894BA2E5D642800016F6F /* Load Commands.md */,
+				C06894BB2E5D642800016F6F /* __TEXT.md */,
+				C06894BC2E5D642800016F6F /* __DATA_CONST.md */,
+				C06894BD2E5D642800016F6F /* __DATA.md */,
+				C06894BE2E5D642800016F6F /* Dynamic Loader Info.md */,
+				C06894B52E5D642800016F6F /* SymbolTable.png */,
+				C06894B62E5D642800016F6F /* __TEXT.png */,
+				C06894B72E5D642800016F6F /* __DATA_CONST.png */,
+				C06894B82E5D642800016F6F /* __DATA.png */,
+			);
+			path = "Mach-O";
 			sourceTree = "<group>";
 		};
 		C0787B2A2DD2E38500867C2A /* Daily */ = {
